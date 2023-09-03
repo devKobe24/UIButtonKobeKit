@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UIButtonKobeKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of UIButtonKobeKit.'
+  s.summary          = 'Make Button easy!!'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/VincentGeranium/UIButtonKobeKit'
+  s.homepage         = 'https://github.com/devKobe24/UIButtonKobeKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'VincentGeranium' => 'mskang@xingxingmobility.com' }
-  s.source           = { :git => 'https://github.com/VincentGeranium/UIButtonKobeKit.git', :tag => s.version.to_s }
+  s.author           = { 'dev.Kobe24' => 'dev.skyachieve91@gmail.com' }
+  s.source           = { :git => 'https://github.com/devKobe24/UIButtonKobeKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'UIButtonKobeKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'UIButtonKobeKit' => ['UIButtonKobeKit/Assets/*.png']
-  # }
+  s.frameworks = 'UIKit'
+  s.resource_bundles = {
+    'UIButtonKobeKit' => ['UIButtonKobeKit/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  
   # s.dependency 'AFNetworking', '~> 2.3'
 end

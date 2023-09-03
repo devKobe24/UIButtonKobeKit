@@ -1,0 +1,6 @@
+framework module UIButtonKobeKit {
+  umbrella header "UIButtonKobeKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

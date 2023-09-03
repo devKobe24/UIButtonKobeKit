@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D6D995E46397C37B574295F0DD5EEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1E970BB730F04E0566D573C03D341A47 /* Pods-UIButtonKobeKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F70D373AE7CFA2A12738FDC08D4853 /* Pods-UIButtonKobeKit_Tests-dummy.m */; };
+		59D7E9268DEE1E6776A3810100637C9E /* Pods-UIButtonKobeKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A89A65B4269B6B46BF84CFBAC67830C /* Pods-UIButtonKobeKit_Example-dummy.m */; };
+		73AB68521FA516109C8E9342924562E1 /* UIButtonKobeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 030C95125E21F7069859F611817D75CE /* UIButtonKobeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		813381BFDE492E3FA5076AA34CACCC0A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A0519CB9AFB751D735A2B5031FD412 /* ReplaceMe.swift */; };
+		AB823F5DE6F09843AC7B71DF67436A85 /* Pods-UIButtonKobeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C173E0C7672FB7BD9B59318E80B02AC /* Pods-UIButtonKobeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0DD35239C7F8884F6721058E0FA2A47 /* Pods-UIButtonKobeKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB287181AFDF701974B9F780E774954 /* Pods-UIButtonKobeKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7E6B9912578F90C62FC1136D4CA29E4 /* UIButtonKobeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A148677BB81FE1E30E5CAA3C77720E6 /* UIButtonKobeKit-dummy.m */; };
+		CF347D00DEFECE98F5003A78327C8499 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F0AB3697D4BD32FB09DC7F49142192C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8EE697A0A8CABC6FE2BC87F4EF44D12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B46C826EC2598710D84BE1E355665D9;
+			remoteInfo = "Pods-UIButtonKobeKit_Example";
+		};
+		E90D866DB0B8D0016AA83D0A67F24208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82E35622D1DE5107CEF27E0D9C3C0C62;
+			remoteInfo = UIButtonKobeKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030C95125E21F7069859F611817D75CE /* UIButtonKobeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButtonKobeKit-umbrella.h"; sourceTree = "<group>"; };
+		1327A3C68660E524C12F65D20A35516A /* Pods-UIButtonKobeKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButtonKobeKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A89A65B4269B6B46BF84CFBAC67830C /* Pods-UIButtonKobeKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIButtonKobeKit_Example-dummy.m"; sourceTree = "<group>"; };
+		1C173E0C7672FB7BD9B59318E80B02AC /* Pods-UIButtonKobeKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIButtonKobeKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		28A0519CB9AFB751D735A2B5031FD412 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UIButtonKobeKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		2C5007297A94D3FF8220A6928CEBC947 /* Pods-UIButtonKobeKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIButtonKobeKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D26D6B09AB30B40DBC38C2165DA40B8 /* UIButtonKobeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UIButtonKobeKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		4301E440DACC1F49D75C9D3D36632632 /* Pods-UIButtonKobeKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIButtonKobeKit_Example.modulemap"; sourceTree = "<group>"; };
+		4A148677BB81FE1E30E5CAA3C77720E6 /* UIButtonKobeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButtonKobeKit-dummy.m"; sourceTree = "<group>"; };
+		5158466B047DF46D3071914D745BEBBB /* Pods-UIButtonKobeKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButtonKobeKit_Example-Info.plist"; sourceTree = "<group>"; };
+		52CC0CA51CB67DE3995462DD0B84D684 /* Pods-UIButtonKobeKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButtonKobeKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		56DFC39E04F34D342AD3D67C6EA47D03 /* UIButtonKobeKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIButtonKobeKit; path = UIButtonKobeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E0CCE291AA8251005B778B26AB778A /* Pods-UIButtonKobeKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIButtonKobeKit_Tests.modulemap"; sourceTree = "<group>"; };
+		63395544BA0FC2F8536F4E7FF0A26D43 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		66F70D373AE7CFA2A12738FDC08D4853 /* Pods-UIButtonKobeKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIButtonKobeKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		826EC9FE8B91ED61E76825546233AA4B /* Pods-UIButtonKobeKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButtonKobeKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8628A8605EB576930D52533598172F0A /* Pods-UIButtonKobeKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UIButtonKobeKit_Tests"; path = Pods_UIButtonKobeKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8751FA2EEBD1648F2557294814B97D01 /* Pods-UIButtonKobeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonKobeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		878658C2C70E422CD8D29D4F0FE8B630 /* Pods-UIButtonKobeKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIButtonKobeKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C776299403BF7D73EA83F3416FE10B0 /* Pods-UIButtonKobeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonKobeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8CB287181AFDF701974B9F780E774954 /* Pods-UIButtonKobeKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIButtonKobeKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		933FC981975148CBA95E437F65E7E3CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7EEE3B9BF4548331605234541906879 /* Pods-UIButtonKobeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonKobeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5D5F2A3B3179EAEFD1F3784CACC72E2 /* UIButtonKobeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIButtonKobeKit.release.xcconfig; sourceTree = "<group>"; };
+		CAB4F00DD91B227F7739FFA67CCFC91A /* UIButtonKobeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIButtonKobeKit-Info.plist"; sourceTree = "<group>"; };
+		CF95323D24A5F5F6D123296EC685333B /* UIButtonKobeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIButtonKobeKit.modulemap; sourceTree = "<group>"; };
+		D87EF50982958EBEABFA76E747425401 /* Pods-UIButtonKobeKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButtonKobeKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		D8EBF8F18F93B3D5809DDEEB52FB397D /* UIButtonKobeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButtonKobeKit-prefix.pch"; sourceTree = "<group>"; };
+		E019954994A85560119EA03722AD418A /* Pods-UIButtonKobeKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UIButtonKobeKit_Example"; path = Pods_UIButtonKobeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5C1ED1F786C8E6FE60EB7A738E1998 /* UIButtonKobeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIButtonKobeKit.debug.xcconfig; sourceTree = "<group>"; };
+		F9EC6738BB30B2CEB82FF3B23D28CB46 /* Pods-UIButtonKobeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonKobeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEFA42C3EEA84E89D23189AC475BAD42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AB3697D4BD32FB09DC7F49142192C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED817980ED207882645D5036E1FE5F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D6D995E46397C37B574295F0DD5EEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C0109E41AD68C61F96EC7863F813CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF347D00DEFECE98F5003A78327C8499 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2281F2551394CF295B8DFB2FE532C256 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E019954994A85560119EA03722AD418A /* Pods-UIButtonKobeKit_Example */,
+				8628A8605EB576930D52533598172F0A /* Pods-UIButtonKobeKit_Tests */,
+				56DFC39E04F34D342AD3D67C6EA47D03 /* UIButtonKobeKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3893088CD5842486B9D52D5EF4317E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF95323D24A5F5F6D123296EC685333B /* UIButtonKobeKit.modulemap */,
+				4A148677BB81FE1E30E5CAA3C77720E6 /* UIButtonKobeKit-dummy.m */,
+				CAB4F00DD91B227F7739FFA67CCFC91A /* UIButtonKobeKit-Info.plist */,
+				D8EBF8F18F93B3D5809DDEEB52FB397D /* UIButtonKobeKit-prefix.pch */,
+				030C95125E21F7069859F611817D75CE /* UIButtonKobeKit-umbrella.h */,
+				ED5C1ED1F786C8E6FE60EB7A738E1998 /* UIButtonKobeKit.debug.xcconfig */,
+				B5D5F2A3B3179EAEFD1F3784CACC72E2 /* UIButtonKobeKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UIButtonKobeKit";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E6616E0BF4A66E819D3555173D8AEB0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				63395544BA0FC2F8536F4E7FF0A26D43 /* LICENSE */,
+				933FC981975148CBA95E437F65E7E3CF /* README.md */,
+				2D26D6B09AB30B40DBC38C2165DA40B8 /* UIButtonKobeKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B8088F7CF2EDB7C4AF9CA77A46F9A25B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE22263ED4A343C2CD1F3B7494DC15FD /* Pods-UIButtonKobeKit_Example */,
+				F71C3EEA8CA097D50E9793DCD938A139 /* Pods-UIButtonKobeKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0A1AB137A7E560459A6FAB2AD71A7BD /* UIButtonKobeKit */ = {
+			isa = PBXGroup;
+			children = (
+				28A0519CB9AFB751D735A2B5031FD412 /* ReplaceMe.swift */,
+				5E6616E0BF4A66E819D3555173D8AEB0 /* Pod */,
+				3F3893088CD5842486B9D52D5EF4317E /* Support Files */,
+			);
+			name = UIButtonKobeKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C480795741B76A4DF5ED81B3E153A991 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0A1AB137A7E560459A6FAB2AD71A7BD /* UIButtonKobeKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C480795741B76A4DF5ED81B3E153A991 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2281F2551394CF295B8DFB2FE532C256 /* Products */,
+				B8088F7CF2EDB7C4AF9CA77A46F9A25B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE22263ED4A343C2CD1F3B7494DC15FD /* Pods-UIButtonKobeKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4301E440DACC1F49D75C9D3D36632632 /* Pods-UIButtonKobeKit_Example.modulemap */,
+				878658C2C70E422CD8D29D4F0FE8B630 /* Pods-UIButtonKobeKit_Example-acknowledgements.markdown */,
+				1327A3C68660E524C12F65D20A35516A /* Pods-UIButtonKobeKit_Example-acknowledgements.plist */,
+				1A89A65B4269B6B46BF84CFBAC67830C /* Pods-UIButtonKobeKit_Example-dummy.m */,
+				52CC0CA51CB67DE3995462DD0B84D684 /* Pods-UIButtonKobeKit_Example-frameworks.sh */,
+				5158466B047DF46D3071914D745BEBBB /* Pods-UIButtonKobeKit_Example-Info.plist */,
+				8CB287181AFDF701974B9F780E774954 /* Pods-UIButtonKobeKit_Example-umbrella.h */,
+				F9EC6738BB30B2CEB82FF3B23D28CB46 /* Pods-UIButtonKobeKit_Example.debug.xcconfig */,
+				8751FA2EEBD1648F2557294814B97D01 /* Pods-UIButtonKobeKit_Example.release.xcconfig */,
+			);
+			name = "Pods-UIButtonKobeKit_Example";
+			path = "Target Support Files/Pods-UIButtonKobeKit_Example";
+			sourceTree = "<group>";
+		};
+		F71C3EEA8CA097D50E9793DCD938A139 /* Pods-UIButtonKobeKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				56E0CCE291AA8251005B778B26AB778A /* Pods-UIButtonKobeKit_Tests.modulemap */,
+				2C5007297A94D3FF8220A6928CEBC947 /* Pods-UIButtonKobeKit_Tests-acknowledgements.markdown */,
+				826EC9FE8B91ED61E76825546233AA4B /* Pods-UIButtonKobeKit_Tests-acknowledgements.plist */,
+				66F70D373AE7CFA2A12738FDC08D4853 /* Pods-UIButtonKobeKit_Tests-dummy.m */,
+				D87EF50982958EBEABFA76E747425401 /* Pods-UIButtonKobeKit_Tests-Info.plist */,
+				1C173E0C7672FB7BD9B59318E80B02AC /* Pods-UIButtonKobeKit_Tests-umbrella.h */,
+				A7EEE3B9BF4548331605234541906879 /* Pods-UIButtonKobeKit_Tests.debug.xcconfig */,
+				8C776299403BF7D73EA83F3416FE10B0 /* Pods-UIButtonKobeKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-UIButtonKobeKit_Tests";
+			path = "Target Support Files/Pods-UIButtonKobeKit_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CC1D52DACFCE616D8847DF83986C481 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DD35239C7F8884F6721058E0FA2A47 /* Pods-UIButtonKobeKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CC45D04642773E3A78A9E7B83DFFAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73AB68521FA516109C8E9342924562E1 /* UIButtonKobeKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D66B44BB265FFFE6955F5FC0538517 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB823F5DE6F09843AC7B71DF67436A85 /* Pods-UIButtonKobeKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		82E35622D1DE5107CEF27E0D9C3C0C62 /* UIButtonKobeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55171C53B4583C159E6A77AED242F398 /* Build configuration list for PBXNativeTarget "UIButtonKobeKit" */;
+			buildPhases = (
+				64CC45D04642773E3A78A9E7B83DFFAE /* Headers */,
+				92A6887A8E5298AEB8B94BBF26DF3DFD /* Sources */,
+				ED817980ED207882645D5036E1FE5F7B /* Frameworks */,
+				9258029FF802D05366ACB3B0D7AEF9B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIButtonKobeKit;
+			productName = UIButtonKobeKit;
+			productReference = 56DFC39E04F34D342AD3D67C6EA47D03 /* UIButtonKobeKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B46C826EC2598710D84BE1E355665D9 /* Pods-UIButtonKobeKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FB445CF9300A00A72FBF000DC59770A /* Build configuration list for PBXNativeTarget "Pods-UIButtonKobeKit_Example" */;
+			buildPhases = (
+				3CC1D52DACFCE616D8847DF83986C481 /* Headers */,
+				241C20641BF4D0ED3C6A5739730FE225 /* Sources */,
+				F9C0109E41AD68C61F96EC7863F813CC /* Frameworks */,
+				DE12C076E4B10EED31EED64A976B702F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10B910353E12BFBA1AA23A90F942F866 /* PBXTargetDependency */,
+			);
+			name = "Pods-UIButtonKobeKit_Example";
+			productName = Pods_UIButtonKobeKit_Example;
+			productReference = E019954994A85560119EA03722AD418A /* Pods-UIButtonKobeKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDB0E27BB839F3011F276A9BA2DE4CF9 /* Pods-UIButtonKobeKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F5862927853DC56DB7EBFA50337576D /* Build configuration list for PBXNativeTarget "Pods-UIButtonKobeKit_Tests" */;
+			buildPhases = (
+				E2D66B44BB265FFFE6955F5FC0538517 /* Headers */,
+				9C07E9F65545EDADFF90438DE4F7A406 /* Sources */,
+				DEFA42C3EEA84E89D23189AC475BAD42 /* Frameworks */,
+				92350AC23D94D1B6A572DECB38B0F7E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D2B96628E215E31AB883AD40B8E3131 /* PBXTargetDependency */,
+			);
+			name = "Pods-UIButtonKobeKit_Tests";
+			productName = Pods_UIButtonKobeKit_Tests;
+			productReference = 8628A8605EB576930D52533598172F0A /* Pods-UIButtonKobeKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2281F2551394CF295B8DFB2FE532C256 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B46C826EC2598710D84BE1E355665D9 /* Pods-UIButtonKobeKit_Example */,
+				CDB0E27BB839F3011F276A9BA2DE4CF9 /* Pods-UIButtonKobeKit_Tests */,
+				82E35622D1DE5107CEF27E0D9C3C0C62 /* UIButtonKobeKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92350AC23D94D1B6A572DECB38B0F7E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9258029FF802D05366ACB3B0D7AEF9B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE12C076E4B10EED31EED64A976B702F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		241C20641BF4D0ED3C6A5739730FE225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59D7E9268DEE1E6776A3810100637C9E /* Pods-UIButtonKobeKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A6887A8E5298AEB8B94BBF26DF3DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813381BFDE492E3FA5076AA34CACCC0A /* ReplaceMe.swift in Sources */,
+				C7E6B9912578F90C62FC1136D4CA29E4 /* UIButtonKobeKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C07E9F65545EDADFF90438DE4F7A406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E970BB730F04E0566D573C03D341A47 /* Pods-UIButtonKobeKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10B910353E12BFBA1AA23A90F942F866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIButtonKobeKit;
+			target = 82E35622D1DE5107CEF27E0D9C3C0C62 /* UIButtonKobeKit */;
+			targetProxy = E90D866DB0B8D0016AA83D0A67F24208 /* PBXContainerItemProxy */;
+		};
+		4D2B96628E215E31AB883AD40B8E3131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UIButtonKobeKit_Example";
+			target = 8B46C826EC2598710D84BE1E355665D9 /* Pods-UIButtonKobeKit_Example */;
+			targetProxy = D8EE697A0A8CABC6FE2BC87F4EF44D12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39420208BFE7B23B5911A44D6474CD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5C1ED1F786C8E6FE60EB7A738E1998 /* UIButtonKobeKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIButtonKobeKit/UIButtonKobeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIButtonKobeKit/UIButtonKobeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIButtonKobeKit/UIButtonKobeKit.modulemap";
+				PRODUCT_MODULE_NAME = UIButtonKobeKit;
+				PRODUCT_NAME = UIButtonKobeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C9432079C87BB980FDE32EC3F2173F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EEE3B9BF4548331605234541906879 /* Pods-UIButtonKobeKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIButtonKobeKit_Tests/Pods-UIButtonKobeKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIButtonKobeKit_Tests/Pods-UIButtonKobeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		92C6CE7CA9A1C538E81883B1F7039CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C776299403BF7D73EA83F3416FE10B0 /* Pods-UIButtonKobeKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIButtonKobeKit_Tests/Pods-UIButtonKobeKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIButtonKobeKit_Tests/Pods-UIButtonKobeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0AE5F1EDAC4106110AC845D9FFD66E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D5F2A3B3179EAEFD1F3784CACC72E2 /* UIButtonKobeKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIButtonKobeKit/UIButtonKobeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIButtonKobeKit/UIButtonKobeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIButtonKobeKit/UIButtonKobeKit.modulemap";
+				PRODUCT_MODULE_NAME = UIButtonKobeKit;
+				PRODUCT_NAME = UIButtonKobeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E318B91A5BDD39AF9FCC725ED269CBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8751FA2EEBD1648F2557294814B97D01 /* Pods-UIButtonKobeKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIButtonKobeKit_Example/Pods-UIButtonKobeKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIButtonKobeKit_Example/Pods-UIButtonKobeKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAB39D87986A3F3B505B0511F46BDCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EC6738BB30B2CEB82FF3B23D28CB46 /* Pods-UIButtonKobeKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIButtonKobeKit_Example/Pods-UIButtonKobeKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIButtonKobeKit_Example/Pods-UIButtonKobeKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F5862927853DC56DB7EBFA50337576D /* Build configuration list for PBXNativeTarget "Pods-UIButtonKobeKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9432079C87BB980FDE32EC3F2173F2 /* Debug */,
+				92C6CE7CA9A1C538E81883B1F7039CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55171C53B4583C159E6A77AED242F398 /* Build configuration list for PBXNativeTarget "UIButtonKobeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39420208BFE7B23B5911A44D6474CD27 /* Debug */,
+				B0AE5F1EDAC4106110AC845D9FFD66E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FB445CF9300A00A72FBF000DC59770A /* Build configuration list for PBXNativeTarget "Pods-UIButtonKobeKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB39D87986A3F3B505B0511F46BDCFF /* Debug */,
+				E318B91A5BDD39AF9FCC725ED269CBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
