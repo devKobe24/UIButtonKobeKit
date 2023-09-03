@@ -22,7 +22,7 @@ pod 'UIButtonKobeKit'
 
 ## Author
 
-VincentGeranium, mskang@xingxingmobility.com
+devKobe24 dev.skyachieve91@gmail.com
 
 ## License
 
